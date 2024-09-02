@@ -16,7 +16,7 @@ const MainContent = () => {
     <div className='body'>
       <nav className="navbar navbar-expand-lg">
         <nav class="navbar">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             <img src={Logo} alt=""/>
           </a>
         </nav>
