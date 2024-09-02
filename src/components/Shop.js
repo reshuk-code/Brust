@@ -93,7 +93,7 @@ import Logo from './images/logo.png';
 import product1 from './images/product-1.jpg';
 import product2 from './images/product-2.jpg';
 import product3 from './images/product-3.jpg';
-import { useNavigate } from 'react-router-dom';
+
 
 const products = [
   { id: 1, name: 'Brust - Watermelon', img: product1 },
@@ -168,12 +168,12 @@ const Shop = () => {
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
               <a className="nav-link" href="/home">
-                Home <span className="sr-only">(current)</span>
+                Home 
               </a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
-                Energy Drinks
+              <a className="nav-link" href="/">
+                Energy Drinks <span className="sr-only">(current)</span>
               </a>
             </li>
             <li className="nav-item ml-auto">
