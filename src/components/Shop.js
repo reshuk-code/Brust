@@ -105,7 +105,7 @@ const Shop = () => {
   const [cart, setCart] = useState([]);
   const [showCart, setShowCart] = useState(false);
 
-  const navigate = useNavigate();
+  
 
   const handleAddToCart = (product) => {
     setCart((prevCart) => {
